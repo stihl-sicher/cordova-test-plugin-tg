@@ -23,7 +23,7 @@ public class ModusEcho extends CordovaPlugin {
 		if (msg == null || msg.length() == 0) {
 			callbackContext.error("Empty message!");
 		} else {
-			Toast.makeText(webView.getContext(), msg, Toast.LENGTH_LONG).show();
+			//Toast.makeText(webView.getContext(), msg, Toast.LENGTH_LONG).show();
 			callbackContext.success(msg);
 		}
 	}
